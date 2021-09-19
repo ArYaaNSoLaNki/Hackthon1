@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+</head>
+
+<body>
+    <div id="login_box">
+        <input type="email" id="email" />
+        <input type="password" id="password" />
+        <button onclick="signup()">Signup</button>
+    </div>
+    <script type="module">
+
+const firebaseConfig = {
+  apiKey: "AIzaSyC1bg97fLcCSA3PJLGoyBQM1IyosqBdOlc",
+  authDomain: "hackthon-ballon-game.firebaseapp.com",
+  projectId: "hackthon-ballon-game",
+  storageBucket: "hackthon-ballon-game.appspot.com",
+  messagingSenderId: "13769928889",
+  appId: "1:13769928889:web:8a0de4ae57a01c5f73eb68",
+  measurementId: "G-S178P6EYHK"
+};
+
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        
+    </script>
+    <script src="./app.js"></script>
+</body>
+
+</html> 
